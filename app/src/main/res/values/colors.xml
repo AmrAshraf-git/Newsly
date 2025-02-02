@@ -1,5 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="black">#FF000000</color>
+    <color name="clean_black">#1f1f1f</color>
     <color name="white">#FFFFFFFF</color>
+
+    <color name="dark_blue">#1976d2</color>
+    <color name="blue">#2196f3</color>
+    <color name="light_blue">#bbdefb</color>
+    <color name="clean_dark_blue">#0b57cf</color>
+    <color name="clean_blue">#d2e5f4</color>
+    <color name="clean_light_blue">#e7eef6</color>
+
+    <color name="indigo">#536dfe</color>
+    <color name="clean_indigo">#00668c</color>
+
+    <color name="dark_gray">#212121</color>
+    <color name="gray">#757575</color>
+    <color name="light_gray">#BDBDBD</color>
+    <color name="clean_dark_gray">#40474d</color>
+    <color name="clean_gray">#a1a4a9</color>
+    <color name="clean_light_gray">#e9edf6</color>
+
+    <color name="red">#C13B34</color>
+    <color name="light_red">#FF7A7A</color>
+
+
+
+    <array name="color_picker">
+        <item name="black">#FF000000</item>
+        <item name="clean_black">#1f1f1f</item>
+        <item name="white">#FFFFFFFF</item>
+        <item name="dark_blue">#1976d2</item>
+        <item name="blue">#2196f3</item>
+        <item name="light_blue">#bbdefb</item>
+        <item name="clean_dark_blue">#0b57cf</item>
+        <item name="clean_blue">#d2e5f4</item>
+        <item name="clean_light_blue">#e7eef6</item>
+        <item name="indigo">#536dfe</item>
+        <item name="clean_indigo">#00668c</item>
+        <item name="dark_gray">#212121</item>
+        <item name="gray">#757575</item>
+        <item name="light_gray">#BDBDBD</item>
+        <item name="clean_dark_gray">#40474d</item>
+        <item name="clean_gray">#a1a4a9</item>
+        <item name="clean_light_gray">#e9edf6</item>
+        <item name="red">#C13B34</item>
+        <item name="light_red">#FF7A7A</item>
+    </array>
 </resources>

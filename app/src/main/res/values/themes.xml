@@ -1,9 +1,45 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Base.Theme.Newsly" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <!-- Customize your theme here. -->
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/clean_light_blue</item>
+        <item name="colorPrimaryVariant">@color/blue </item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorError">#B00020</item>
+
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/light_blue</item>
+        <item name="colorSecondaryVariant">@color/indigo</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?android:attr/windowBackground</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:navigationBarColor">?attr/colorSurfaceContainerHigh</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">true</item>
     </style>
 
-    <style name="Theme.Newsly" parent="Base.Theme.Newsly" />
+    <style name="App.Custom.Indicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@color/indigo</item>
+    </style>
+
+
+
+    <style name="Theme.Newsly" parent="Base.Theme.Newsly">
+    <!-- Customize your theme here. -->
+    <!-- Primary brand color. -->
+    <item name="colorPrimary">@color/clean_light_gray</item>
+    <item name="colorPrimaryVariant">@color/blue </item>
+    <item name="colorOnPrimary">@color/white</item>
+    <item name="colorError">#B00020</item>
+
+    <!-- Secondary brand color. -->
+    <item name="colorSecondary">@color/light_blue</item>
+    <item name="colorSecondaryVariant">@color/indigo</item>
+    <item name="colorOnSecondary">@color/black</item>
+    <!-- Status bar color. -->
+    </style>
+
 </resources>
