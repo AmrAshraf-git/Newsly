@@ -28,11 +28,13 @@ kapt = "2.1.10"
 coreSplashscreenVersion = "1.0.1"
 navigationFragmentKtx = "2.8.6"
 navigationUiKtx = "2.8.6"
+viewpager2 = "1.0.0"
 
 
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-viewpager2 = { module = "androidx.viewpager2:viewpager2", version.ref = "viewpager2" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
 androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
 androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }

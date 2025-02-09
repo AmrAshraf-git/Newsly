@@ -99,6 +99,8 @@ dependencies {
     implementation(libs.coil)
     implementation(libs.coil.network.okhttp)
 
+    implementation(libs.androidx.viewpager2)
+
 }
 //kapt plugin
 kapt {
