@@ -13,6 +13,10 @@ class OnboardingViewModel @Inject constructor(
     private val localUserManager: LocalUserManager
 ): ViewModel() {
 
+    suspend fun readOnBoardingState():Boolean {
+        return localUserManager.readAppEntry()
+    }
+
 
 
     fun saveOnBoardingState() {
@@ -20,6 +24,7 @@ class OnboardingViewModel @Inject constructor(
             localUserManager.saveAppEntry()
         }
     }
+
 
 
 }

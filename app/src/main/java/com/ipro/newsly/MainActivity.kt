@@ -33,8 +33,8 @@ class MainActivity : AppCompatActivity() {
     private lateinit var bottomNavigationView: BottomNavigationView
     //private lateinit var localDataStore:LocalUserManagerImpl
     //private val localDataStore by lazy { LocalUserManagerImpl(this) }
-    @Inject
-    lateinit var localDataStore: LocalUserManager
+    //@Inject
+    //lateinit var localDataStore: LocalUserManager
     private val onboardingViewModel: OnboardingViewModel by viewModels()
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -62,7 +62,7 @@ class MainActivity : AppCompatActivity() {
 
         // Check onboarding flag asynchronously
         lifecycleScope.launch {
-            val isOnboardingCompleted = localDataStore.readAppEntry()
+            val isOnboardingCompleted = onboardingViewModel.readOnBoardingState()
             if (!isOnboardingCompleted) {
                 navController.navigate(R.id.onboardingFragment)
             }
