@@ -13,7 +13,7 @@
         android:layout_height="0dp"
 
         android:padding="10dp"
-        android:src="@drawable/newsly_logo_with_text" />
+        android:src="@drawable/newsly_logo_wt" />
 
     <TextView
         android:layout_margin="10dp"

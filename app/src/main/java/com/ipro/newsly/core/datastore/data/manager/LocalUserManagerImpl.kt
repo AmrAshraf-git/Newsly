@@ -26,11 +26,19 @@ class LocalUserManagerImpl (
             Log.e("LocalUserManagerImpl", "Failed to save APP_ENTRY", e)
         }
     }
+
+    override fun readAppEntry(): Flow<Boolean> {
+        return context.dataStore.data.map { preferences ->
+            preferences[PreferencesKeys.APP_ENTRY] ?: false
+        }
+    }
+
+    /*
     override suspend fun readAppEntry(): Boolean {
         return context.dataStore.data.map { preferences ->
             preferences[PreferencesKeys.APP_ENTRY] ?: false
         }.first()
-    }
+    }*/
 
 
 }

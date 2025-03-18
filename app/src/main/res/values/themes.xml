@@ -30,7 +30,7 @@
     <style name="Theme.Newsly" parent="Base.Theme.Newsly">
     <!-- Customize your theme here. -->
     <!-- Primary brand color. -->
-    <item name="colorPrimary">@color/clean_light_gray</item>
+    <item name="colorPrimary">@color/blue</item>
     <item name="colorPrimaryVariant">@color/blue </item>
     <item name="colorOnPrimary">@color/white</item>
     <item name="colorError">#B00020</item>
@@ -40,6 +40,15 @@
     <item name="colorSecondaryVariant">@color/indigo</item>
     <item name="colorOnSecondary">@color/black</item>
     <!-- Status bar color. -->
+    <!-- Status bar and navigation bar -->
+    <item name="android:statusBarColor">?attr/colorSurface</item>
+    <item name="android:navigationBarColor">?attr/colorSurface</item>
+    </style>
+
+
+    <style name="Theme.App.SplashScreen" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenAnimatedIcon">@drawable/logo_splash_screen</item>
+        <item name="postSplashScreenTheme">@style/Theme.Newsly</item>
     </style>
 
 </resources>

@@ -1,16 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".feature.settings.SettingsFragment">
+    tools:context=".ui.fragments.settings.SettingsFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/settings"
-        android:gravity="center"
-        android:textSize="28sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="First Line: To set up the fixed mode, simply position the SearchBar on top of the rest of your layout's contents and do not set up any scrolling behaviors or AppBarLayout. The SearchBar will remain fixed in place as the content is scrolled beneath it.To set up the fixed mode, simply position the SearchBar on top of the rest of your layout's contents and do not set up any scrolling behaviors or AppBarLayout. The SearchBar will remain fixed in place as the content is scrolled beneath it.
+To set up the fixed mode, simply position the SearchBar on top of the rest of your layout's contents and do not set up any scrolling behaviors or AppBarLayout. The SearchBar will remain fixed in place as the content is scrolled beneath it.
+To set up the fixed mode, simply position the SearchBar on top of the rest of your layout's contents and do not set up any scrolling behaviors or AppBarLayout. The SearchBar will remain fixed in place as the content is scrolled beneath it.
+To set up the fixed mode, simply position the SearchBar on top of the rest of your layout's contents and do not set up any scrolling behaviors or AppBarLayout. The SearchBar will remain fixed in place as the content is scrolled beneath it.
+To set up the fixed mode, simply position the SearchBar on top of the rest of your layout's contents and do not set up any scrolling behaviors or AppBarLayout. The SearchBar will remain fixed in place as the content is scrolled beneath it.
+To set up the fixed mode, simply position the SearchBar on top of the rest of your layout's contents and do not set up any scrolling behaviors or AppBarLayout. The SearchBar will remain fixed in place as the content is scrolled beneath it.
+To set up the fixed mode, simply position the SearchBar on top of the rest of your layout's contents and do not set up any scrolling behaviors or AppBarLayout. The SearchBar will remain fixed in place as the content is scrolled beneath it.
+To set up the fixed mode, simply position the SearchBar on top of the rest of your layout's contents and do not set up any scrolling behaviors or AppBarLayout. The SearchBar will remain fixed in place as the content is scrolled beneath it.
+To set up the fixed mode, simply position the SearchBar on top of the rest of your layout's contents and do not set up any scrolling behaviors or AppBarLayout. The SearchBar will remain fixed in place as the content is scrolled beneath it.
+To set up the fixed mode, simply position the SearchBar on top of the rest of your layout's contents and do not set up any scrolling behaviors or AppBarLayout. The SearchBar will remain fixed in place as the content is scrolled beneath it.
+To set up the fixed mode, simply position the SearchBar on top of the rest of your layout's contents and do not set up any scrolling behaviors or AppBarLayout. The SearchBar will remain fixed in place as the content is scrolled beneath it.
+To set up the fixed mode, simply position the SearchBar on top of the rest of your layout's contents and do not set up any scrolling behaviors or AppBarLayout. The SearchBar will remain fixed in place as the content is scrolled beneath it.
+To set up the fixed mode, simply position the SearchBar on top of the rest of your layout's contents and do not set up any scrolling behaviors or AppBarLayout. The SearchBar will remain fixed in place as the content is scrolled beneath it." />
 
-</FrameLayout>
+
+</androidx.core.widget.NestedScrollView>

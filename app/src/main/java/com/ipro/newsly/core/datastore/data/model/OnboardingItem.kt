@@ -9,9 +9,9 @@ data class OnboardingItem(
     val description: String)
 
 val onboardingItems = listOf(
-    OnboardingItem(R.drawable.newsly_logo_with_text, "Welcome", "Discover new features."),
-    OnboardingItem(R.drawable.newsly_logo_with_text, "Stay Organized", "Manage your tasks efficiently."),
-    OnboardingItem(R.drawable.newsly_logo_with_text, "Get Started", "Start using the app now.")
+    OnboardingItem(R.drawable.newsly_logo_wt, "Welcome", "Discover new features."),
+    OnboardingItem(R.drawable.newsly_logo_wt, "Stay Organized", "Manage your tasks efficiently."),
+    OnboardingItem(R.drawable.newsly_logo_wt, "Get Started", "Start using the app now.")
 )
 
 

@@ -1,4 +1,4 @@
-package com.ipro.newsly.feature.search
+package com.ipro.newsly.ui.fragments.search
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
