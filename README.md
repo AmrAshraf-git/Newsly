@@ -1,2 +1,1 @@
-Newsly
-test 222222
+Newsly app
